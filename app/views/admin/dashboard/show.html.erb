@@ -1,8 +1,15 @@
-<h1>Admin::Dashboard#show</h1>
+<h1>Admin Dashboard!</h1>
+<tr>
+<th>
 <h4>Product Count:</h4>
+</th>
+<tbody>
 <%= @products_count %>
-
-<h4>Category Count:</h4>
-<%= @category_count %>
-<br>
 <%= link_to 'Admin > All Products',  [:admin, :products] %>
+<th>
+<h4>Category Count:</h4>
+</th>
+<%= @category_count %>
+<%= link_to 'Admin > All Categories', [:admin, :categories] %>
+</tbody>
+</tr>
