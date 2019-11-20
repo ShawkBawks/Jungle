@@ -25,3 +25,23 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+
+## Usage
+Main Page will show all products and if they are sold out it will notify you.
+![Main Page](screenshots/MainScreen.png)
+
+You should be able to register and will be automatically signed in with your new account.
+![Register!](screenshots/Register.png)
+
+You can browse through individual categories and view products in that category.
+![Category View](screenshots/Category.png)
+
+Add items to cart and have it update the quantity.
+![Cart](screenshots/Cart.png)
+
+Review your order and purchase the products. Gives an order total.
+![Order Page](screenshots/PostOrder.png)
+
+If the cart is empty it will show that you need to add items to cart and link you to the home page.
+![Empty Cart](screenshots/Empty.png)
